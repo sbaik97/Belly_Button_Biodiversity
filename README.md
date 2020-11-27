@@ -29,7 +29,6 @@ https://sbaik97.github.io/Belly_Button_Biodiversity/
 
 * Use the D3 library to read in `samples.json`.
 
-
 ### Step 2 - Horizontal Bar Chart
 
 * Create a horizontal bar chart to display the top 10 bacterial species (OTUs), using JavaScript, Plotly, and D3.js.
@@ -57,22 +56,20 @@ the chart.
 
 ![](image/bubblechart.png)
 
-### Step 3 - Gauge Chart
+### Step 4 - Gauge Chart
 
-* Display the sample metadata from the route `/metadata/<sample>`
-    * Display each key/value pair from the metadata JSON object somewhere on the page
-
+* Create a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart
 * Update all of the plots any time that a new sample is selected
 
-* Adapt the Gauge Chart from <https://plot.ly/javascript/gauge-charts/> to plot the Weekly Washing Frequency obtained from the route `/wfreq/<sample>`
-    * Modify the example gauge code to account for values ranging from 0 - 9
-    * Update the chart whenever a new sample is selected
-
+       * The type property is represnted as "indicator".
+       * The mode property is represnted as "gauge+number".
+       * The maximum range for the gauge is 10 and set different colors as string values in increments of 2.
+       * The washing frequency is represented as black to a foating point number.
+       
 ![](image/guage.png)
 
-
-* Deploy the app to [GitHub Pages](https://sbaik97.github.io/Belly_Button_Biodiversity/).
-
+* The dataanlsysi is deployed to the website [GitHub Pages](https://sbaik97.github.io/Belly_Button_Biodiversity/).
+* When the dashboard is frst opened in a browser, ID 940’s data is displayed in the dashboard, and all three charts are working according to the selection from the dropdown menu.
 
 
 ## Summary 
