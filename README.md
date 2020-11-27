@@ -29,11 +29,11 @@ https://sbaik97.github.io/Belly_Button_Biodiversity/
 * The horizontal bar chart will display the  sample_values as the values, the otu_ids as the labels, and the  otu_labels as the hover text for the bars on
 the chart.
 
-    * Code is written to create the arrays when a sample is selected from the dropdown menu
-    * The x values are the sample_values in descending order.
-    * The y values are the otu_ids in descending order.
-    * The hover text is the otu_labels in descending order.
-    * The top 10 sample_values are sorted in descending order.
+      * Code is written to create the arrays when a sample is selected from the dropdown menu
+      * The x values are the sample_values in descending order.
+      * The y values are the otu_ids in descending order.
+      * The hover text is the otu_labels in descending order.
+      * The top 10 sample_values are sorted in descending order.
 
 ![](/image/barchart.png)
 
@@ -48,7 +48,7 @@ the chart.
       * The otu_ids as the marker colors.
       * The text for a bubble is shown when hovered over
 
-![](Images/image/bubblechart.png)
+![](image/bubblechart.png)
 
 ### Step 3 - Gauge Chart
 
