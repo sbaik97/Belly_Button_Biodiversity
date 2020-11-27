@@ -37,16 +37,20 @@ the chart.
 
 ![](/image/barchart.png)
 
-### Step 3 - Horizontal Bar Chart
+### Step 3 - Bubble Chart
 
-* Create a Bubble Chart that uses data from the samples route (`/samples/<sample>`) to display each sample
-    * Use `otu_ids` for the x values
-    * Use `sample_values` for the y values
-    * Use `sample_values` for the marker size
-    * Use `otu_ids` for the marker colors
-    * Use `otu_labels` for the text values
+* Create a  bubble chart to display the otu_ids and sample_values 
+* Create a  bubble chart to display the otu_ids and sample_values when an individual’s ID is selected from the dropdown menu webpage.
 
-![](Images/bubble_chart.png)
+      * The otu_ids as the x-axis values.
+      * The sample_values as the y-axis values.
+      * The sample_values as the marker size.
+      * The otu_ids as the marker colors.
+      * The text for a bubble is shown when hovered over
+
+![](Images/image/bubblechart.png)
+
+### Step 3 - Gauge Chart
 
 * Display the sample metadata from the route `/metadata/<sample>`
     * Display each key/value pair from the metadata JSON object somewhere on the page
@@ -57,7 +61,7 @@ the chart.
     * Modify the example gauge code to account for values ranging from 0 - 9
     * Update the chart whenever a new sample is selected
 
-![](Images/wash_frequency.png)
+![](image/guage.png)
 
 
 
