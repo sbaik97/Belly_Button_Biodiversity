@@ -29,10 +29,11 @@ https://sbaik97.github.io/Belly_Button_Biodiversity/
 
 ### Step 1 - Demographics Panel.
 
-* Use the D3 library to read in `samples.json`.
+* Use the D3 library to read in [samples.json](/samples.json).
 * Create a visually compelling dashboard to read and parse external data. 
 * A dropdown menu will list the ID numbers of all the volunteers. When a volunteer ID is chosen from the dropdown menu, that person's demographics information, such as location, sex, and age, will be displayed.
-
+* JavaScript functions and methods can be found in [chart.js](/chart.js).
+* HTML and Bootstrap to customize the webpage can be found in [index.html](/index.html).
 
 ### Step 2 - Horizontal Bar Chart
 
