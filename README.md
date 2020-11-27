@@ -16,9 +16,9 @@ Create an interactive data visualization for the web to build an interactive das
 
 
 
-## Where does the data come from?
-
-The data is provided by Monash University Data Analytics Bootcamp [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
+## Software/Tools
+* VS Code, Chrome web browser, Command-line interface, github.io 
+* The data is provided by Monash University Data Analytics Bootcamp [Belly Button Biodiversity dataset](http://robdunnlab.com/projects/belly-button-biodiversity/).
 
 
 ## Results
