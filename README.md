@@ -8,6 +8,13 @@ Create an interactive data visualization for the web to build an interactive das
 
 ## Objectives
 
+* Create basic plots with Plotly, including bar charts, line charts, and pie charts.
+* Use D3.json() to fetch external data, such as CSV files and web APIs.
+* Use functional programming in JavaScript to manipulate data, using map(), filter(), and sort() methods.
+* Use event handlers in JavaScript to add interactivity to a data visualization.
+* Deploy an interactive chart to GitHub Pages.
+
+
 ### Step 1 - Plotly.js
 
 Use Plotly.js to build interactive charts for the dashboard
