@@ -17,19 +17,27 @@ Create an interactive data visualization for the web to build an interactive das
 ## Results
 
 * The final product can be found in the following webpage
+
 https://sbaik97.github.io/Belly_Button_Biodiversity/
 
+* Use the D3 library to read in `samples.json`.
 
-### Step 1 - Plotly.js
 
-Use Plotly.js to build interactive charts for the dashboard
+### Step 2 - Horizontal Bar Chart
 
-* Create a Pie Chart that uses data from the samples route (`/samples/<sample>`) to display the top 10 samples
-    * Use `sample_values` as the values for the Pie Chart
-    * Use `otu_ids` as the labels for the Pie Chart
-    * Use `otu_labels` as the hovertext for the Pie Chart
+* Create a horizontal bar chart to display the top 10 bacterial species (OTUs), using JavaScript, Plotly, and D3.js.
+* The horizontal bar chart will display the  sample_values as the values, the otu_ids as the labels, and the  otu_labels as the hover text for the bars on
+the chart.
 
-![](Images/pie_chart.png)
+    * Code is written to create the arrays when a sample is selected from the dropdown menu
+    * The x values are the sample_values in descending order.
+    * The y values are the otu_ids in descending order.
+    * The hover text is the otu_labels in descending order.
+    * The top 10 sample_values are sorted in descending order.
+
+![](/image/barchart.png)
+
+### Step 3 - Horizontal Bar Chart
 
 * Create a Bubble Chart that uses data from the samples route (`/samples/<sample>`) to display each sample
     * Use `otu_ids` for the x values
