@@ -68,7 +68,7 @@ the chart.
        
 ![](image/guage.png)
 
-* The dataanlsysi is deployed to the website [GitHub Pages](https://sbaik97.github.io/Belly_Button_Biodiversity/).
+* The data analsys is deployed to the website [GitHub Pages](https://sbaik97.github.io/Belly_Button_Biodiversity/).
 * When the dashboard is frst opened in a browser, ID 940’s data is displayed in the dashboard, and all three charts are working according to the selection from the dropdown menu.
 
 
